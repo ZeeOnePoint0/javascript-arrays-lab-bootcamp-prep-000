@@ -30,6 +30,6 @@ function prependKitten(name) {
 }
 
 function removeLastKitten(array) {
-  array.slice(-1)
+  array.slice(0 - array.length - 1)
   return array
 }
