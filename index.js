@@ -20,6 +20,8 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  array.push(name)
+  
   var newAr = array.push(name)
+
+  return newAr
 }
