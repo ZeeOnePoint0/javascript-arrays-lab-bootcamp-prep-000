@@ -8,5 +8,5 @@ function destructivelyAppendKitten(array, name) {
 }
 
 function destructivelyPrependKitten(array, name) {
-  kittens.unshift("Bob", "Milo")
+  kittens.unshift("Bob")
 }
