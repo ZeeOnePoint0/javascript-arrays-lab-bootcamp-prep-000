@@ -6,3 +6,7 @@ function destructivelyAppendKitten(array, name) {
   kittens.push("Ralph")
 
 }
+
+function destructivelyPrependKitten(array, name) {
+  kittens.shift(name)
+}
